@@ -23,6 +23,10 @@ env/
 # Secrets
 .env
 .env*
+!.env.example   # <— allow the example file
+
+# Notebooks (optional)
+*.ipynb
 
 # OS junk (optional)
 .DS_Store
