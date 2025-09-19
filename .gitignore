@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+
+# Local data & caches
+Data/*
+!Data/.gitkeep
+storage/
+vector_index/
+embedding_model/
+*.db
+*.log
+
+# Notebooks (optional)
+*.ipynb
+
+# Virtual envs / IDE
+.venv/
+env/
+.vscode/
+.idea/
+
+# Secrets
+.env
+.env*
+
+# OS junk (optional)
+.DS_Store
+Thumbs.db
